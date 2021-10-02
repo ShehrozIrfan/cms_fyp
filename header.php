@@ -46,7 +46,10 @@
                 <?php endif ?>
                   <?php  if(!isset($_SESSION['login_user'])) { ?>
                     <li class="nav-item mr-5">
-                    <a class="nav-link" href="login.php"><i class="fa fa-sign-in mr-2"></i>Login</a>
+                    <a class="nav-link" href="signup.php" id="loginBtn"><i class="fa fa-user-plus mr-2"></i>Sign up</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                    <a class="nav-link" href="login.php" id="loginBtn"><i class="fa fa-sign-in mr-2"></i>Login</a>
                     </li>
                   <?php } else {  ?>
                     <li class="nav-item dropdown mr-5">
@@ -74,5 +77,8 @@
             </div>
           </nav><!-- navbar ends -->
     </header><!-- header ends -->
+
+    <script>
+    </script>
 </body>
 </html>
