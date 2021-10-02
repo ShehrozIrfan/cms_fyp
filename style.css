@@ -1,0 +1,365 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Global */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.pd_top {
+    padding-top: 100px;
+}
+.clear {
+    clear: both;
+}
+.parallax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Images */
+
+/* Logos */
+#main_logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* ===================================================== */
+/* ================ Header FILE ========================= */
+
+#loginModalBtn {
+    cursor: pointer;
+}
+
+/* ===================================================== */
+/* ================ INDEX FILE ========================= */
+
+/* Nav-bar */
+
+/* Section Parallax */
+
+
+.header_parallax {
+    background-image: url('assets/images/bg_parallax_final.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.header_parallax h2 {
+    font-size: 35px;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+.header_parallax a {
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+
+/* Section MS */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in;
+    background-color: #343a40; /* #b05857  */
+  }
+
+  .b_1:hover .overlay {
+    opacity: 1;
+    border-radius: 10px;
+  }
+  .overlay h4  a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#ms_boxes {
+    background: #f9f9f9;
+    background-attachment: fixed;
+}
+#ms_boxes h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.ms_img_1 {
+    background-image: url('assets/images/accounts.png');
+}
+.ms_img_2 {
+    background-image: url('assets/images/admission.png');
+}
+.ms_img_3 {
+    background-image: url('assets/images/attendance.png');
+}
+.ms_img_4 {
+    background-image: url('assets/images/exam.png');
+}
+.ms_img_5 {
+    background-image: url('assets/images/hostel.png');
+}
+
+
+
+.ms_img_1:hover,.ms_img_2:hover,.ms_img_3:hover,.ms_img_4:hover,.ms_img_5:hover {
+    opacity: 0.5;
+}
+.row_ms .box_ms {
+    /* border: 2px solid coral; */
+    max-height: 250px;
+    margin-bottom: 30px;
+}
+.ms_img_div {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.box_ms h4 {
+    font-size: 18px;
+    padding-top: 5px;
+}
+.box_ms a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Section News */
+#s_news {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #f6f6f6;
+    color: black;
+}
+.dummy {
+    height: 1000px;
+    border: 2px solid green;
+}
+#s_news h2 {
+    font-weight: bold;
+}
+#s_news .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.news {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.news_date {
+    padding: 10px;
+    font-size: 12px;
+    display: block;
+}
+.news_title {
+    padding: 10px;
+    font-size: 14px;
+    display: block;
+}
+.img-index-news {
+    max-width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-index-news {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding-top: 20px;
+}
+.date-index-news {
+    font-size: 15px;
+}
+.btn-index-news {
+    margin-top: 10px;
+}
+.title-news {
+    margin-top: 30px;
+}
+.description-news {
+    margin-top: 30px;
+}
+/* main footer */
+#main_footer {
+    background: #343a40;
+    font-size: 12px;
+    padding-top: 20px;
+    color: white;
+}
+#main_footer .row div {
+    /* border: 2px solid coral; */
+}
+.f_ms_links ul a {
+    text-decoration: none;
+    color: black;
+}
+.f_ms_links ul a:hover {
+   opacity: 0.8;
+}
+#main_footer .list-group-item {
+    background: #343a40;
+    border: 1px solid white;
+}
+#main_footer .list-group-item a {
+    color: white;
+}
+/* Simple Footer */
+.s_f {
+    background: #343a40;
+    color: white;
+}
+.simple_footer {
+    padding: 10px;
+    float:left;
+    font-size: 15px;
+}
+.f_icons span a {
+    text-decoration: none;
+}
+.f_icons {
+    float: right;
+    margin-top: 8px;
+}
+.f_icons span {
+    padding: 0px 8px 0px 8px;
+}
+.f_icons span img:hover {
+    opacity: 0.8;
+}
+
+
+
+/* ===================================================== */
+/* ================ ABOUT PAGE ========================= */
+.img_college {
+    background-image: url('assets/images/college.png');
+    min-height: 100vh;
+}
+#about {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.para_1,.para_2,.para_3,.para_4 {
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* ===================================================== */
+/* ================ Contact PAGE ========================= */
+#contact {
+    padding-bottom: 30px;
+}
+.contact_text {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+
+/* ===================================================== */
+/* ================ Show News PAGE ========================= */
+.img-show-news {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-show-news {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.description-show-news {
+    font-size: 18px;
+    text-align: justify;
+}
+/* Media Queries - for mobile responsive */
+@media (max-width: 768px) {
+    .box_ms h4 {
+        font-size: 18px;
+    }
+    #ms_boxes h2, #s_news h2, #about h2, #contact h2 {
+        font-size: 22px;
+    }
+    #about h3 {
+        font-size: 20px;
+    }
+
+    #main_footer .row div {
+        margin: 5px;
+    }
+    .news {
+        margin: 5px;
+    }
+    .img-index-news {
+        max-width: 100%;
+        height: auto;
+    }
+    .index-news {
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .header_parallax {
+        height: 450px;
+    }
+    .header_parallax h2 {
+        font-size: 25px;
+    }
+    .header_parallax a {
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 5px 15px 5px 15px;
+    }
+    .ms_box {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ms_box_container .ms_box{
+        float: none;
+    }
+
+    .simple_footer,.f_icons {
+        float: none;
+    }
+    .f_icons {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+}
