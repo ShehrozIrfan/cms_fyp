@@ -56,7 +56,7 @@ if(isset($_SESSION['login_user'])) {
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+  <div class="bg-modals"></div>
 <script>
   $(document).ready(function() {
     $('#loginModal').modal('show');
@@ -67,8 +67,8 @@ if(isset($_SESSION['login_user'])) {
 <div class="modal fade" id="loginModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Admin Login</h5>
+        <div class="">
+            <p class="modal-heading">Admin Login</p>
         </div>
         <div class="modal-body">
             <!-- contact section -->
@@ -97,7 +97,7 @@ if(isset($_SESSION['login_user'])) {
                                 <div class="form-group">
                                 <button type="submit" name="login" class="btn btn-dark btn-block">Login</button>
                             </form>
-                            <p>Don't have an account? <a href="signup.php">Signup</a></p>
+                            <p class="pt-3">Don't have an account? <a href="signup.php">Signup</a></p>
                         </div>
                     </div>
                 </div>

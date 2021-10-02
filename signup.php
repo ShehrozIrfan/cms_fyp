@@ -92,7 +92,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+    <div class="bg-modals"></div>
 <script>
   $(document).ready(function() {
     $('#signupModal').modal('show');
@@ -103,8 +103,8 @@
 <div class="modal fade" id="signupModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="signupModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Signup</h5>
+        <div class="">
+            <p class="modal-heading">Signup</p>
         </div>
         <div class="modal-body">
             <!-- contact section -->
@@ -141,7 +141,7 @@
                                 <div class="form-group">
                                 <button type="submit" name="signup" class="btn btn-dark btn-block">Signup</button>
                             </form>
-                            <p>Already have an account? <a href="login.php">Login</a></p>
+                            <p class="pt-3">Already have an account? <a href="login.php">Login</a></p>
                         </div>
                     </div>
                 </div>

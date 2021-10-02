@@ -13,7 +13,7 @@
     <!-- header -->
     <header>
         <!-- nav-bar -->
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
             <a class="navbar-brand" href="index.php"><img src="assets/images/main_logo.jpeg" id="main_logo" ></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
               <span class="navbar-toggler-icon"></span>
