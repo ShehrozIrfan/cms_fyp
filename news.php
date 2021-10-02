@@ -32,9 +32,10 @@ if(!$result) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="specific-news-bg" style="background: url('images/news-images/<?php echo $row['filename']; ?>'); background-position: center; background-size: cover; height: 100vh; opacity: 0.5;"></div>
 <!-- Modal -->
 <div class="modal fade" id="newsModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
         <h6 class="font-weight-bold">Posted on <?php echo $row['date']; ?></h6>
@@ -50,8 +51,9 @@ if(!$result) {
     </div>
   </div>
 </div>
-
-<script>$('#newsModal').modal('show');</script>
+<script>
+  $('#newsModal').modal('show');
+</script>
 <script src="modals.js"></script>
 </body>
 </html>
