@@ -1,5 +1,13 @@
 <?php require_once 'session.php' ?>
 <?php require_once 'global_update_profile.php' ?>
+
+<?php
+if(!isset($_SESSION['login_user'])) {
+    header('location: login.php');
+    die();
+  }
+?>
+
 <?php
    $msg = '';
    $msgClass = '';

@@ -1,5 +1,10 @@
 <?php include 'session.php'; ?>
-
+<?php
+  if(isset($_SESSION['login_user'])) {
+    header('location: dashboard.php');
+    die();
+  }
+?>
 <?php
     //Getting top 3 news
     $msg = '';
