@@ -74,12 +74,11 @@
                 <li class="nav-item">
                     <a class="nav-link vertical-navbar-link" href="show_news.php"><i class="fa fa-eye vertical-navbar-icon"></i>Show News</a>
                 </li>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link vertical-navbar-link" href="update_profile.php"><i class="fa fa-edit vertical-navbar-icon"></i>Update Profile</a>
                 </li>
             </ul>
-            <? endif ?>
+            <?php endif ?>
             <ul class="navbar-nav ml-auto">
             <?php if(!isset($_SESSION['login_user'])){ ?>
                 <li class="nav-item mr-5">
