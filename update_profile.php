@@ -4,17 +4,11 @@
    $msg = '';
    $msgClass = '';
    if(isset($_POST['update'])) {
-        $username = mysqli_real_escape_string($connection,$_POST['username']);
+        $email = mysqli_real_escape_string($connection,$_POST['email']);
         $password = $_POST['password'];
         $password_confirmation = $_POST['confirm_password'];
-        if(trim($username) == '') {
-            $msg = "Username can't be blank!";
-            $msgClass = "danger";
-        } else if(strlen(trim($username)) < 3) {
-            $msg = "Username must be atleast 3 characters!";
-            $msgClass = "danger";
-        } else if(strlen($password) < 6) {
-            $msg = "Password must be atleast 6 characters!";
+        if(strlen($password) < 8) {
+            $msg = "Password must be atleast 8 characters!";
             $msgClass = "danger";
         }
         else {
@@ -24,7 +18,7 @@
             } else {
                 $password = md5(mysqli_real_escape_string($connection,$_POST['password']));
 
-                $query = "UPDATE login SET username = '$username', password = '$password' WHERE login_id ='$id'";
+                $query = "UPDATE login SET email = '$email', password = '$password' WHERE login_id ='$id'";
 
                 $result = mysqli_query($connection,$query);
 
@@ -67,7 +61,7 @@
         <div class="container">
             <h2 class="text-center font-weight-bold mt-3 mb-3">Update Login Details</h2>
             <?php if ($msg != ''): ?>
-              <div class="alert <?php echo $msgClass ?> text-center col-md-6 mx-auto mt-3 mb-3">
+              <div class="alert alert-<?php echo $msgClass ?> text-center col-md-6 mx-auto mt-3 mb-3">
                 <button type = "button" class = "close" data-dismiss = "alert" aria-hidden = "true">
                           ×
                 </button>
@@ -78,8 +72,8 @@
                 <div class="col-md-6">
                     <form action="update_profile.php" method="post">
                         <div class="form-group">
-                            <label for="username">New Username</label>
-                            <input type="text" name="username" class="form-control" id="username" placeholder="Enter Userame" required>
+                            <label for="email">New Email</label>
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required>
                           </div>
                         <div class="form-group">
                           <label for="password">New Password</label>
@@ -96,9 +90,6 @@
             </div>
         </div>
     </section><!-- contact section ends -->
-
-    <!-- footer -->
-    <?php include 'footer.php' ?><!-- footer ends -->
 
     <script src="app.js"></script>
 </body>

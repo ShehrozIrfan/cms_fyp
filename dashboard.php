@@ -39,10 +39,6 @@ if(!isset($_SESSION['login_user'])){
 
     </div>
 
-
-    <!-- footer -->
-    <?php include 'footer.php' ?><!-- footer ends -->
-
     <script src="app.js"></script>
 </body>
 </html>

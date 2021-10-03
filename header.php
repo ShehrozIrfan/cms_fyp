@@ -11,6 +11,16 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+        #main_logo {
+            margin-left: 50px;
+        }
+        .vertical-navbar-link {
+            text-align: center;
+        }
+        .vertical-navbar-icon {
+            display: block;
+            font-size: 30px;
+        }
         @media (min-width:992px) {
             .vertical-nav {
                 position: fixed;
@@ -23,6 +33,19 @@
                 padding-top: 30px
                 }
             }
+        @media(max-width: 992px) {
+            #main_logo {
+                margin-left: 0px;
+            }
+            .vertical-navbar-link {
+                text-align: left;
+            }
+            .vertical-navbar-icon {
+                display: inline;
+                font-size: 20px;
+                padding-right: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -43,17 +66,17 @@
             <?php if(isset($_SESSION['login_user'])): ?>
             <ul class="navbar-nav mr-auto flex-column vertical-nav bg-dark mt-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="dashboard.php">Dashboard</a>
+                    <a class="nav-link vertical-navbar-link" href="dashboard.php"><i class="fa fa-home vertical-navbar-icon"></i>Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="create_news.php">Post News</a>
+                    <a class="nav-link vertical-navbar-link" href="create_news.php"><i class="fa fa-plus-square vertical-navbar-icon"></i>Post News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="show_news.php">Show News</a>
+                    <a class="nav-link vertical-navbar-link" href="show_news.php"><i class="fa fa-eye vertical-navbar-icon"></i>Show News</a>
                 </li>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="update_profile.php">Update Profile</a>
+                    <a class="nav-link vertical-navbar-link" href="update_profile.php"><i class="fa fa-edit vertical-navbar-icon"></i>Update Profile</a>
                 </li>
             </ul>
             <? endif ?>
@@ -103,7 +126,7 @@
                     </div>
                 </li><!-- Dropdown ends -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="logout.php">Logout</a>
+                    <a class="nav-link" href="logout.php"><i class="fa fa-sign-out pr-2"></i>Logout</a>
                 </li>
             <?php } ?>
             </ul>

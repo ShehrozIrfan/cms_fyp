@@ -98,8 +98,6 @@ if(isset($_GET['edit'])) {
         </div>
     </section><!-- section create news ends -->
 
-    <!-- footer -->
-    <?php include 'footer.php' ?><!-- footer ends -->
     <script src="app.js"></script>
 </body>
 </html>
