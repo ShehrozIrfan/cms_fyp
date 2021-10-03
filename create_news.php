@@ -133,7 +133,7 @@ if(isset($_POST['update'])) {
                         <div class="form-group">
                             <div class="form-group">
                                 <label for="image">Upload Image</label>
-                                <input type="file" name="uploadImage" value="" class="form-control" required />
+                                <input type="file" name="uploadImage" value="" class="form-control" accept="image/*" required />
                             </div>
                             <label for="title">Title</label>
                             <textarea type="text" class="form-control" id="title" name="title" placeholder="Enter Title" required><?php if(isset($_GET['edit'])) { echo $title; } ?></textarea>
