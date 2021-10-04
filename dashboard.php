@@ -45,7 +45,7 @@ if(!isset($_SESSION['login_user'])){
             <div class="col-md-12 text-center">
                 <div class="jumbotron">
                     <h1>Welcome to CMS</h1>
-                    <p>This is the welcome page for CMS, Govt. Islamia Graduate College, Civil Lines, Lahore. You can manage Accounts, Admissions, Attendances, Examinations, Hostel from this single platform.</p>
+                    <p>This is the welcome page for CMS, Govt. Islamia Graduate College, Civil Lines, Lahore. You can post/edit/delete news, manage Accounts, Admissions, Attendances, Examinations, Hostel from this single platform.</p>
                 </div>
             </div>
         </div>

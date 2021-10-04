@@ -97,7 +97,7 @@ if(isset($_SESSION['login_user'])) {
                                 <div class="form-group">
                                 <button type="submit" name="login" class="btn btn-dark btn-block">Login</button>
                             </form>
-                            <p class="pt-3">Don't have an account? <a href="signup.php">Signup</a></p>
+                            <p class="pt-3 d-none">Don't have an account? <a href="signup.php">Signup</a></p>
                         </div>
                     </div>
                 </div>

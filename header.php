@@ -104,7 +104,7 @@
                   <li class="nav-item mr-5">
                     <a class="nav-link" href="contact.php"><i class="fa fa-envelope mr-2"></i>Contact</a>
                   </li>
-                  <li class="nav-item mr-5">
+                  <li class="nav-item mr-5 d-none">
                     <a class="nav-link" href="signup.php" id="loginBtn"><i class="fa fa-user-plus mr-2"></i>Sign up</a>
                   </li>
                   <li class="nav-item mr-5">
