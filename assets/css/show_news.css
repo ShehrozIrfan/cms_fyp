@@ -1,0 +1,17 @@
+/* ===================================================== */
+/* ================ Show News PAGE ========================= */
+.img-show-news {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-show-news {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.description-show-news {
+    font-size: 18px;
+    text-align: justify;
+}

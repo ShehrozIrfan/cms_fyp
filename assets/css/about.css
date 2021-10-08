@@ -1,0 +1,15 @@
+/* ===================================================== */
+/* ================ ABOUT PAGE ========================= */
+.img_college {
+    background-image: url('../images/college.png');
+    min-height: 100vh;
+}
+#about {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.para_1,.para_2,.para_3,.para_4 {
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

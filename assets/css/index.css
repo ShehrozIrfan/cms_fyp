@@ -1,39 +1,3 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-/* Global */
-body {
-    font-family: 'Poppins', sans-serif;
-}
-.pd_top {
-    padding-top: 100px;
-}
-.clear {
-    clear: both;
-}
-.parallax {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-/* Images */
-
-/* Logos */
-#main_logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-/* ===================================================== */
-/* ================ Header FILE ========================= */
-
-#loginModalBtn {
-    cursor: pointer;
-}
-
 /* ===================================================== */
 /* ================ INDEX FILE ========================= */
 
@@ -43,7 +7,7 @@ body {
 
 
 .header_parallax {
-    background-image: url('assets/images/bg_parallax_final.jpg');
+    background-image: url('../images/bg_parallax_final.jpg');
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -111,19 +75,19 @@ body {
     font-weight: bold;
 }
 .ms_img_1 {
-    background-image: url('assets/images/accounts.png');
+    background-image: url('../images/accounts.png');
 }
 .ms_img_2 {
-    background-image: url('assets/images/admission.png');
+    background-image: url('../images/admission.png');
 }
 .ms_img_3 {
-    background-image: url('assets/images/attendance.png');
+    background-image: url('../images/attendance.png');
 }
 .ms_img_4 {
-    background-image: url('assets/images/exam.png');
+    background-image: url('../images/exam.png');
 }
 .ms_img_5 {
-    background-image: url('assets/images/hostel.png');
+    background-image: url('../images/hostel.png');
 }
 
 
@@ -254,128 +218,4 @@ body {
 }
 .f_icons span img:hover {
     opacity: 0.8;
-}
-
-
-
-/* ===================================================== */
-/* ================ ABOUT PAGE ========================= */
-.img_college {
-    background-image: url('assets/images/college.png');
-    min-height: 100vh;
-}
-#about {
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-.para_1,.para_2,.para_3,.para_4 {
-    text-align: justify;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-/* ===================================================== */
-/* ================ Contact PAGE ========================= */
-#contact {
-    padding-bottom: 30px;
-}
-.contact_text {
-    margin-top: 30px;
-    font-size: 15px;
-}
-
-
-/* ===================================================== */
-/* ================ Show News PAGE ========================= */
-.img-show-news {
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-.title-show-news {
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 1.5rem;
-}
-.description-show-news {
-    font-size: 18px;
-    text-align: justify;
-}
-
-/* ===================================================== */
-/* ================ Modals - Login, Signup ========================= */
-.modal-heading {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 30px;
-}
-.bg-modals {
-    background: url('assets/images/college.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-/* Media Queries - for mobile responsive */
-@media (max-width: 768px) {
-    .box_ms h4 {
-        font-size: 18px;
-    }
-    #ms_boxes h2, #s_news h2, #about h2, #contact h2 {
-        font-size: 22px;
-    }
-    #about h3 {
-        font-size: 20px;
-    }
-
-    #main_footer .row div {
-        margin: 5px;
-    }
-    .news {
-        margin: 5px;
-    }
-    .img-index-news {
-        max-width: 100%;
-        height: auto;
-    }
-    .index-news {
-        margin: 20px;
-    }
-
-}
-
-@media (max-width: 560px) {
-    .header_parallax {
-        height: 450px;
-    }
-    .header_parallax h2 {
-        font-size: 25px;
-    }
-    .header_parallax a {
-        margin-top: 10px;
-        font-size: 12px;
-        padding: 5px 15px 5px 15px;
-    }
-    .ms_box {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .ms_box_container .ms_box{
-        float: none;
-    }
-
-    .simple_footer,.f_icons {
-        float: none;
-    }
-    .f_icons {
-        margin-top: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
 }

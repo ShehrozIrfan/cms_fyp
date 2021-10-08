@@ -29,7 +29,9 @@ if(!$result) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/show_news.css">
 </head>
 <body>
   <div class="specific-news-bg" style="background: url('images/news-images/<?php echo $row['filename']; ?>'); background-position: center; background-size: cover; height: 100vh; opacity: 0.5;"></div>

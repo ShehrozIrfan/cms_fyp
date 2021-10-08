@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Global */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.pd_top {
+    padding-top: 100px;
+}
+.clear {
+    clear: both;
+}
+.parallax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Images */
+
+/* Logos */
+#main_logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* ===================================================== */
+/* ================ Header FILE ========================= */
+
+#loginModalBtn {
+    cursor: pointer;
+}
+
+
+/* Media Queries - for mobile responsive */
+@media (max-width: 768px) {
+    .box_ms h4 {
+        font-size: 18px;
+    }
+    #ms_boxes h2, #s_news h2, #about h2, #contact h2 {
+        font-size: 22px;
+    }
+    #about h3 {
+        font-size: 20px;
+    }
+
+    #main_footer .row div {
+        margin: 5px;
+    }
+    .news {
+        margin: 5px;
+    }
+    .img-index-news {
+        max-width: 100%;
+        height: auto;
+    }
+    .index-news {
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .header_parallax {
+        height: 450px;
+    }
+    .header_parallax h2 {
+        font-size: 25px;
+    }
+    .header_parallax a {
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 5px 15px 5px 15px;
+    }
+    .ms_box {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ms_box_container .ms_box{
+        float: none;
+    }
+
+    .simple_footer,.f_icons {
+        float: none;
+    }
+    .f_icons {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+}

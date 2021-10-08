@@ -1,0 +1,16 @@
+/* ===================================================== */
+/* ================ Modals - Login, Signup ========================= */
+.modal-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.bg-modals {
+    background: url('assets/images/college.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+

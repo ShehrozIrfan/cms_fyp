@@ -14,13 +14,14 @@ if(!isset($_SESSION['login_user'])){
     <title>Home | GICCL</title>
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <style>
         .container-custom {
             width: 80%;
@@ -45,7 +46,7 @@ if(!isset($_SESSION['login_user'])){
             <div class="col-md-12 text-center">
                 <div class="jumbotron">
                     <h1>Welcome to CMS</h1>
-                    <p>This is the welcome page for CMS, Govt. Islamia Graduate College, Civil Lines, Lahore. You can post/edit/delete news, manage Accounts, Admissions, Attendances, Examinations, Hostel from this single platform.</p>
+                    <p>This is the welcome page for CMS, Govt. Islamia Graduate College, Civil Lines, Lahore. You can manage Accounts, Admissions, Attendances, Examinations, Hostel from this single platform.</p>
                 </div>
             </div>
         </div>
